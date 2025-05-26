@@ -13,7 +13,15 @@
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  color: var(--background-color);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  opacity: 0.60;
+  padding: 12px 24px !important;
+  font-size: 36px !important;
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+  font-weight: 400;
 }
 
 .hero picture {
