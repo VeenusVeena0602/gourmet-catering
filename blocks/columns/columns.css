@@ -30,4 +30,24 @@
     flex: 1;
     order: unset;
   }
+  .columns > div > div > h1,.columns > div > div > h5 {  
+    text-align: center !important;
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin: 10px 0;   
+  }
+  .columns > div > div > h1 { font-size: 36px !important;}
+  .columns > div > div > h4 { 
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+  }
+  .columns > div > div > h5 {   font-size: 18px !important;}
+  .columns > div > div > p {   font-size: 18px !important;}
+  .columns > div > div > p:nth-of-type(2){ color: #757575 !important;}
+  .columns > div {margin-bottom: 90px;}
+
+  .columns > div > div[data-align="center"] p {  font-size: 15px !important; color: #757575 !important;}
 }
