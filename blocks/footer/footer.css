@@ -7,6 +7,9 @@ footer .footer > div {
   margin: auto;
   max-width: 1200px;
   padding: 40px 24px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 footer .footer p {
