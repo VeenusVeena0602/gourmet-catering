@@ -9,7 +9,7 @@ header .nav-wrapper {
     text-decoration: none;
     text-align: center;
     cursor: pointer;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgb(0, 0, 0, 16%), 0 2px 10px 0 rgb(0, 0, 0, 12%);
     padding: 8px 16px !important;
     font-weight: 200;
 }
@@ -58,18 +58,21 @@ header nav p {
   line-height: 1;
 }
 
+header nav a{ 
+  letter-spacing: 4px;
+}
+
 header nav a:any-link {
   color: currentcolor;
 }
+
 header nav a:hover{
   text-decoration: none;
   color: #000 !important;
   background-color: #ccc !important;
   white-space: normal; 
 }
-header nav a{ 
-  letter-spacing: 4px;
-}
+
 
 /* hamburger */
 header nav .nav-hamburger {
@@ -176,7 +179,6 @@ header nav .nav-sections {
 }
 
 header nav[aria-expanded='true'] .nav-sections {
-  display: block;
   visibility: visible;
   align-self: start;
   display: flex;

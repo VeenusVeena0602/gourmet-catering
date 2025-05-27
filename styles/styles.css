@@ -248,6 +248,16 @@ main > .section:first-of-type {
   }
 }
 
+.section.highlight {
+  margin-left: 78px !important;
+  margin-right: 78px !important;
+  
+}
+
+.section.highlight .hero-wrapper{
+  display: none;
+}
+
 /* section metadata */
 main .section.light,
 main .section.highlight {
@@ -256,14 +266,7 @@ main .section.highlight {
   padding: 24px 0;
   
 }
-.section.highlight {
-  margin-left: 78px !important;
-  margin-right: 78px !important;
-  
-}
-.section.highlight .hero-wrapper{
-  display: none;
-}
+
 hr {
   border: 0;
   border-top: 1px solid #eee;
