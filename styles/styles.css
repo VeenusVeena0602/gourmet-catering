@@ -112,7 +112,7 @@ h6 {
   scroll-margin: 40px;
 }
 
-h1 { font-size: var(--heading-font-size-xxl); }
+h1,
 h2 { font-size: var(--heading-font-size-xl); }
 h3 { font-size: var(--heading-font-size-l); }
 h4 { font-size: var(--heading-font-size-m); }
@@ -271,4 +271,26 @@ hr {
   border: 0;
   border-top: 1px solid #eee;
   margin: 20px 0;
+}
+
+
+.default-content-wrapper > h1 {  
+  font-size: 36px;
+  letter-spacing: 5px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  margin: 10px 0 60px;
+}
+
+.default-content-wrapper > p { 
+  margin: 15px 0px;
+  color:#000000;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.default-content-wrapper > p:nth-of-type(2) {
+  color: #607d8b !important;
+  font-size: 18px;
+  font-weight: bolder;
 }
