@@ -273,13 +273,16 @@ hr {
   margin: 20px 0;
 }
 
+.form-container .default-content-wrapper{   
+   border-top: 1px solid #eee;
+}
 
 .default-content-wrapper > h1 {  
   font-size: 36px;
   letter-spacing: 5px;
   font-family: "Playfair Display", serif;
   font-weight: 400;
-  margin: 10px 0 60px;
+  margin: 45px 0 40px 10px;
 }
 
 .default-content-wrapper > p { 
